@@ -1,0 +1,109 @@
+Typ prenosu
+# 1Ethernet 2
+# 0IEEE 802.3 LLC
+# 255IEEE 802.3 Novell RAW (Novell properietary)
+# 170IEEE 802.3 LLC + SNAP
+Ethernet typ
+| 2048IPv4
+| 2054ARP
+| 512XEROX PUP
+| 513PUP Addr Trans
+| 2049X.75 Internet
+| 2053X.25 Level 3
+| 32821Revers ARP
+| 32923Appletalk
+| 33011Appletalk AARP
+| 33024IEEE 802.1Q VLAN tagged frames
+| 33079Novell IPX
+| 34525IPv6
+| 34827PPP
+| 34887MPLS
+| 34888MPLS with upstream assigned label
+| 34915PPPoE Discovery Stage
+| 34916PPPoE Session Stage
+SSAP
++ 0NULL SAP
++ 2LLC Sublayer Management or Individual
++ 3LLC Sublayer Management or Group
++ 6IP (DOD Internet Protocol)
++ 14PROWAY (IEC 955)
++ 66BPDU (Bridge PDU 802.1 Spanning tree)
++ 78MMS (Manufacturing Message Service)
++ 94 ISI IP
++ 126X.25 PLP (ISO 8208)
++ 142PROWAY (IEC 955) Active Station List Maintenance
++ 170SNAP
++ 224IPX (Novell NetWare)
++ 244LAN Management
++ 254ISO Network Layer Protocols
++ 255Global DSAP
+IP
+- 1ICMP
+- 2IGMP
+- 6TCP
+- 9IGRP
+- 17UDP
+- 47GRE
+- 50ESP
+- 51AH
+- 57SKIP
+- 88EIGRP
+- 89OSPF
+- 115L2TP
+TCP
+/ 7ECHO
+/ 19CHARGEN
+/ 20FTP DATA
+/ 21FTP CONTROL
+/ 22SSH
+/ 23TELNET
+/ 25SMTP
+/ 53DOMAIN
+/ 79FINGER
+/ 80HTTP
+/ 110POP3
+/ 111SUNRPC
+/ 119NNTP
+/ 139NETBIOS SSN
+/ 143IMAP
+/ 179BGP
+/ 389LDAP
+/ 443HTTPS
+/ 445MICROSOFT DS
+/ 1080SOCKS
+UDP
+< 7Echo
+< 19Chargen
+< 37Time
+< 53Domain
+< 67Bootps DHCP
+< 68Bootpc DHCP
+< 69TFTP
+< 137Netbios ns
+< 138Netbios dgm
+< 161SNMP
+< 162SNMP trap
+< 500Isakmp
+< 514syslog
+< 520RIP
+< 33434Traceroute
+ICMP
+\ 0Echo Reply
+\ 3Destination Unrechable
+\ 4Source Quench
+\ 5Redirect
+\ 8Echo
+\ 9Router Advertisment
+\ 10Router Selection
+\ 11Time Exceeded
+\ 12Parameter Problem
+\ 13Timestamp
+\ 14Timestamp Reply
+\ 15Information Request
+\ 16Information Reply
+\ 17Address Mask Request
+\ 18Address Mask Reply
+\ 30Traceroute
+ARP
+* 1Request
+* 2Reply
